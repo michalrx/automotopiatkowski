@@ -44,7 +44,7 @@ nav.navbar.shrink .logo {
 }
 
 #home {
-    padding-top: 0px;
+    padding-top: 0;
 }
 
 .uslugi {
@@ -52,36 +52,46 @@ nav.navbar.shrink .logo {
     /*background: #138a9e;*/
     color: #FFF;
     min-height: 500px;
+    padding-bottom: 4rem;
 }
 
-    .uslugi h1 {
+    .uslugi .jumbotron {
+        background: #ffc211;
         padding-top: 85px;
+        padding-bottom: 1rem;
     }
 
 .klienci {
-    background: #15C0A9;
+    background: #030305;
     color: #FFF;
     min-height: 500px;
+    padding-bottom: 4rem;
 }
 
-    .klienci h1 {
+    .klienci .jumbotron {
+        background: #030305;
         padding-top: 85px;
+        padding-bottom: 1rem;
     }
 
 .opinie {
-    background: #40E6FF;
+    background: #030305;
     color: #FFF;
     min-height: 500px;
+    padding-bottom: 4rem;
 }
 
-    .opinie h1 {
+    .opinie .jumbotron {
+        background: #030305;
         padding-top: 85px;
+        padding-bottom: 1rem;
     }
 
 .kontakt {
     background: #ffc211;
     color: #FFF;
     min-height: 500px;
+    padding-bottom: 4rem;
 }
 
     .kontakt .col-md-6 h1 {
@@ -91,6 +101,12 @@ nav.navbar.shrink .logo {
     .kontakt .col-md-6 iframe {
         padding-top: 75px;
         min-height: 300px;
+    }
+
+    .kontakt .jumbotron {
+        background: #ffc211;
+        padding-top: 85px;
+        padding-bottom: 0rem;
     }
 
 footer {
@@ -105,4 +121,12 @@ footer {
 
     footer .text-muted {
         color: #ffc211 !important;
+    }
+
+    footer a {
+        color: #fff;
+    }
+
+    footer a:hover {
+        color: #fff;
     }
