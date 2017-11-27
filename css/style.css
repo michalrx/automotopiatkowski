@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+html {
+
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    position: relative;
+}
+
+.navbar-nav {
+    /*flex-direction: row;*/
+}
+
+.nav-link {
+    padding-right: .5rem !important;
+    padding-left: .5rem !important;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+}
+
+nav.navbar{
+    background-color:#ccc;
+/*// Animation*/
+-webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.bg-dark {
+    background-color: rgba(0,0,0,0.8) !important;
+}
+
+.logo {
+    min-height: 80px;
+    max-height: 80px;
+}
+
+nav.navbar.shrink .logo {
+    min-height: 60px;
+    max-height: 60px;
+}
+
+#home {
+    padding-top: 0px;
+}
+
+.uslugi {
+    background: #ffc211;
+    /*background: #138a9e;*/
+    color: #FFF;
+    min-height: 500px;
+}
+
+    .uslugi h1 {
+        padding-top: 85px;
+    }
+
+.klienci {
+    background: #15C0A9;
+    color: #FFF;
+    min-height: 500px;
+}
+
+    .klienci h1 {
+        padding-top: 85px;
+    }
+
+.opinie {
+    background: #40E6FF;
+    color: #FFF;
+    min-height: 500px;
+}
+
+    .opinie h1 {
+        padding-top: 85px;
+    }
+
+.kontakt {
+    background: #ffc211;
+    color: #FFF;
+    min-height: 500px;
+}
+
+    .kontakt .col-md-6 h1 {
+        padding-top: 75px;
+    }
+
+    .kontakt .col-md-6 iframe {
+        padding-top: 75px;
+        min-height: 300px;
+    }
+
+footer {
+    background-color: #030305;
+    color: #FFF;
+    min-height: 100px;
+}
+    footer h5 {
+        text-align: center;
+        margin-top: 35px;
+    }
+
+    footer .text-muted {
+        color: #ffc211 !important;
+    }
