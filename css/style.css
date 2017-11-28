@@ -94,19 +94,14 @@ nav.navbar.shrink .logo {
     padding-bottom: 4rem;
 }
 
-    .kontakt .col-md-6 h1 {
-        padding-top: 75px;
-    }
-
-    .kontakt .col-md-6 iframe {
-        padding-top: 75px;
-        min-height: 300px;
-    }
-
     .kontakt .jumbotron {
         background: #ffc211;
         padding-top: 85px;
-        padding-bottom: 0rem;
+        padding-bottom: 0.5rem;
+    }
+
+    .fast-contact {
+        font-size: 1.1em;
     }
 
 footer {
@@ -130,3 +125,31 @@ footer {
     footer a:hover {
         color: #fff;
     }
+
+@media screen and (max-width: 991px) and (min-width:601px){
+    .bg-dark {
+        background-color: rgba(0,0,0,1) !important;
+    }
+    #home {
+        padding-top: 80px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .bg-dark {
+        background-color: rgba(0,0,0,1) !important;
+    }
+    #home {
+        padding-top: 60px;
+    }
+    .logo {
+        min-height: 60px;
+        max-height: 60px;
+    }
+
+    nav.navbar.shrink .logo {
+        min-height: 40px;
+        max-height: 40px;
+    }
+
+}
